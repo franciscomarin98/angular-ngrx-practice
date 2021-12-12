@@ -2,9 +2,8 @@
     <div class="header__section">
         <ul class="header__list">
             <li [routerLink]="['/']" class="header__logo">BITTEAM</li>
-            <li>Crear item</li>
-            <li [routerLink]="['/','show-case']">Ver todos</li>
             <li (click)="addItem()">Add item</li>
+            <li [routerLink]="['/','show-case']">Show all</li>
         </ul>
     </div>
     <div class="header__section">
